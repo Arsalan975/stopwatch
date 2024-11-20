@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#FFEBEE">
+
+    <TextView
+        android:id="@+id/timerDisplay"
+        android:layout_width="311dp"
+        android:layout_height="99dp"
+        android:layout_marginBottom="20dp"
+        android:text="00:00:000"
+        android:textColor="#D32F2F"
+        android:textSize="70sp" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:text="Start"
+        android:textColor="#FFFFFF"
+        android:background="@android:color/holo_green_dark"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/pauseButton"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:text="Pause"
+        android:textColor="#FFFFFF"
+    android:background="@android:color/holo_orange_dark"
+    android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Reset"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
